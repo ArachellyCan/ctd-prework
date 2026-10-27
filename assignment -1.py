@@ -27,22 +27,23 @@ print()
 #intger(int) whole numbers
 #Float (float) Decimals
 #Boolean (bool)
-#Declared variables True or False
+#Declared variables True or Fals
 
 
 
 
-first_name = input ("Hello, what is your name  ")
+first_name = input ("name ")
 first_name = str(first_name)
 
-year_born = input ("Enter the year you were born   ")
+year_born = input ("Birth year   ")
 year_born =int (year_born)
 
 #print(first_name + str(year_born))
 
 age_now = input("How old are you?  ")
-age_now = int (age_now)
-next_year = age_now + 1
+#age_now = int (age_now)
+
+age_now = 2029 -year_born
 
 print(f"Hello, {first_name} ,you are aproximatekt {next_year} years old  ")
 
